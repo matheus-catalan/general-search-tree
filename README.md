@@ -14,10 +14,10 @@ Assuming you want to create a tree with the following structure:
      7      8
 ```
 
-to generate a tree, in the main method you must instantiate a new class Tree, and after that using the "addNode" method itself, passing as a parameter the value of the root you want to reference and the value of its neighbor, as many neighbors as you want:
+to generate a tree, in the main method, you must instantiate a new Tree class passing to its constructor the number of nodes that this tree will contain, and then using the "addNode" method itself, passing as parameter the value of the root you want reference and the value of your neighbor, as many neighbors as you want:
 
 ```
-    Tree tree(4);
+    Tree tree(8);
 
     /* adding neighbors to the element 1 */
     tree.addNode(1, 2);
