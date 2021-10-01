@@ -1,11 +1,8 @@
-# general-search-tree
+# General Search Tree
 
-## General Tree
 A general tree has the following characterics: Each node can have not more than one parent. Only one node can have no parent, this node is the root of the tree. Each node can have any number of children
 
 Assuming you want to create a tree with the following structure:
-
-
 
 ```
         1
@@ -35,3 +32,11 @@ to generate a tree, in the main method you must instantiate a new class Tree, an
     tree.addNode(4, 7);
     tree.addNode(4, 8);
 ```
+
+
+
+
+
+## Authors
+
+- [@matheus-catalan](https://www.github.com/matheus-catalan)
